@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titlehome {
+  padding-left: 100px;
+  font-size: 2.5rem;
+  padding-top: 30px;
+}
+
+.homep {
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.homep a {
+  color: red;
+}
+
+.title {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  color: yellow;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.movies {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+}
+
+.movies .card {
+  width: 270px;
+  height: 180px;
+  border: 4px solid black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffad;
+  line-height: 25px;
+}
+
+.movies .card h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.movies .card p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.movies .card span {
+  color: gold;
+  font-weight: 400;
+}
+

@@ -10,17 +10,13 @@ class PageController extends Controller
 {
     
     public function index(){
-        return 'Homepage';
+        return view('homepage.home');
     }
 
     public function movies() {
 
         $movies = Movie::all();
-
-        foreach($movies as $movie) {
-            echo $movie->title;
-        }
         
-        return view('movies.index');
+        return view('movies.index', compact('movies'));
     }
 }
